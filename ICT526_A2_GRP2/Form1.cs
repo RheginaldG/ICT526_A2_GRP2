@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ICT526_A2_GRP2
 {
-    public partial class Form1 : Form
+    public partial class InventoryMan : Form
     {
-        public Form1()
+        public InventoryMan()
         {
             InitializeComponent();
         }
