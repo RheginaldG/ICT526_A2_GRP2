@@ -16,5 +16,13 @@ namespace ICT526_A2_GRP2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Min min = new Min();
+            min.Hello();
+
+
+        }
     }
 }
