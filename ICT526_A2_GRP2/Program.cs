@@ -17,6 +17,7 @@ namespace The_Comfort_Zone
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormLogin());
+
         }
     }
 }
