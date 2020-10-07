@@ -46,26 +46,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Inventory.cs" />
-    <Compile Include="InventoryMan.cs">
+
+    <Compile Include="AdminFunc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InventoryMan.Designer.cs">
-      <DependentUpon>InventoryMan.cs</DependentUpon>
+    <Compile Include="AdminFunc.Designer.cs">
+      <DependentUpon>AdminFunc.cs</DependentUpon>
     </Compile>
-    <Compile Include="InventoryUp.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InventoryUp.Designer.cs">
-      <DependentUpon>InventoryUp.cs</DependentUpon>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="InventoryMan.resx">
-      <DependentUpon>InventoryMan.cs</DependentUpon>
+    <Compile Include="Salesstaffmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salesstaffmain.Designer.cs">
+      <DependentUpon>Salesstaffmain.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminFunc.resx">
+      <DependentUpon>AdminFunc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InventoryUp.resx">
-      <DependentUpon>InventoryUp.cs</DependentUpon>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -77,6 +84,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="ClassDiagram1.cd" />
+
+    <EmbeddedResource Include="Salesstaffmain.resx">
+      <DependentUpon>Salesstaffmain.cs</DependentUpon>
+    </EmbeddedResource>
+
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
