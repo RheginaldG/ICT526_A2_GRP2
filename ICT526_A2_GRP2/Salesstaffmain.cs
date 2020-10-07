@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ICT526_A2_GRP2
+namespace The_Comfort_Zone
 {
-    public partial class Form1 : Form
+    public partial class Salesstaffmain : Form
     {
-        public Form1()
+        public Salesstaffmain()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+         
         }
     }
 }

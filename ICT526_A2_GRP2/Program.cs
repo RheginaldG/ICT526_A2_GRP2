@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ICT526_A2_GRP2
+namespace The_Comfort_Zone
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace ICT526_A2_GRP2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormLogin());
         }
     }
 }
