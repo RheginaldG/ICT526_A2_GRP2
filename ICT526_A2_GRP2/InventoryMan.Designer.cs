@@ -56,6 +56,7 @@
             this.btnIMUpdate1.TabIndex = 32;
             this.btnIMUpdate1.Text = "Update Item";
             this.btnIMUpdate1.UseVisualStyleBackColor = true;
+            this.btnIMUpdate1.Click += new System.EventHandler(this.btnIMUpdate1_Click);
             // 
             // lblIMdisc1
             // 
@@ -130,6 +131,7 @@
             this.btnIMAdd1.TabIndex = 21;
             this.btnIMAdd1.Text = "Add New Item";
             this.btnIMAdd1.UseVisualStyleBackColor = true;
+            this.btnIMAdd1.Click += new System.EventHandler(this.btnIMAdd1_Click);
             // 
             // txtIMdisc1
             // 

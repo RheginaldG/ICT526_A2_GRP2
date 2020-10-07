@@ -46,16 +46,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Inventory.cs" />
     <Compile Include="InventoryMan.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="InventoryMan.Designer.cs">
       <DependentUpon>InventoryMan.cs</DependentUpon>
     </Compile>
+    <Compile Include="InventoryUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryUp.Designer.cs">
+      <DependentUpon>InventoryUp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="InventoryMan.resx">
       <DependentUpon>InventoryMan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryUp.resx">
+      <DependentUpon>InventoryUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +76,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
